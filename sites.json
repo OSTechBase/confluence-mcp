@@ -1,8 +1,0 @@
-[
-  {
-    "name": "rd",
-    "baseUrl": "https://your-confluence.example.com",
-    "username": "your-username",
-    "password": "your-password"
-  }
-]
