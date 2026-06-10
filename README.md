@@ -22,11 +22,7 @@ npm run build
 
 ### 第一步：填写站点信息
 
-复制模版 `sites.example.json` 为 `sites.json`，填上你的站点信息：
-
-```bash
-cp sites.example.json sites.json
-```
+在项目根目录创建 `sites.json`，填上你的站点信息：
 
 ```json
 [
@@ -39,7 +35,7 @@ cp sites.example.json sites.json
 ]
 ```
 
-> `sites.json` 已加入 `.gitignore`，不会被提交到 git。模版 `sites.example.json` 只含占位值，可安全入库。
+> `sites.json` 已加入 `.gitignore`，不会被提交到 git。
 
 ### 第二步：接入 Claude Code
 
